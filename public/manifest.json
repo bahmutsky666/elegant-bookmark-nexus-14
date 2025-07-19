@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Elegant Bookmark Manager",
+  "version": "1.0.0",
+  "description": "A beautiful dark-themed bookmark manager for Chrome",
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Bookmark Manager"
+  },
+  "icons": {
+    "16": "favicon.ico",
+    "48": "favicon.ico",
+    "128": "favicon.ico"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
